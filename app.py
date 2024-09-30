@@ -5,7 +5,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use('Agg')
 
-
+# App Initialization
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///final_p_database.sqlite3'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
